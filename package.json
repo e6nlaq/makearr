@@ -1,0 +1,30 @@
+{
+    "name": "makearr",
+    "version": "1.0.0",
+    "author": {
+        "name": "e6nlaq"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/e6nlaq/makearr"
+    },
+    "license": "MIT",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "devDependencies": {
+        "@types/node": "^20.11.29",
+        "@typescript-eslint/eslint-plugin": "^7.3.1",
+        "@typescript-eslint/parser": "^7.3.1",
+        "eslint": "^8.57.0",
+        "prettier": "^3.2.5",
+        "typescript": "^5.4.2",
+        "vitest": "^1.4.0"
+    },
+    "scripts": {
+        "build": "rmdir dist /S /Q && tsc --project tsconfig.build.json",
+        "format": "prettier --write {src,test}/**/*.ts",
+        "lint": "eslint {src,test}/**/*.ts",
+        "test": "vitest run"
+    }
+}
