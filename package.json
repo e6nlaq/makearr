@@ -1,6 +1,6 @@
 {
     "name": "makearr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "e6nlaq"
     },
@@ -25,6 +25,7 @@
         "build": "rmdir dist /S /Q && tsc --project tsconfig.build.json",
         "format": "prettier --write {src,test}/**/*.ts",
         "lint": "eslint {src,test}/**/*.ts",
-        "test": "vitest run"
+        "test": "vitest run",
+        "prepublishOnly": "yarn build"
     }
 }
