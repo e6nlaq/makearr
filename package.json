@@ -1,5 +1,13 @@
 {
     "name": "makearr",
+    "description": "Easily create arrays",
+    "keywords": [
+        "array",
+        "make",
+        "makearr",
+        "vector",
+        "init"
+    ],
     "version": "1.0.1",
     "author": {
         "name": "e6nlaq"
@@ -9,7 +17,6 @@
         "url": "https://github.com/e6nlaq/makearr"
     },
     "license": "MIT",
-    "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "devDependencies": {

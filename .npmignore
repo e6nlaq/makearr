@@ -1,0 +1,8 @@
+src/
+test/
+.github/
+vitest.config.ts
+tsconfig.*
+.prettierrc
+.eslintrc.*
+
